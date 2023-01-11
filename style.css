@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Dekko&display=swap');
+body {
+    background-color: white;
+}
+header {
+    background-image: linear-gradient(black, white);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+header > p {
+    text-align: center;
+}
+
+p > img {
+    max-height: 250px;
+    padding-top: 10px;    
+    padding-left: 10px;
+}
+
+header > h1 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Damion', cursive, Arial, Helvetica, sans-serif;
+}
+
+.main1 > h1 {
+    background-color: white;
+    color: black;
+    margin: auto;
+    font-family: 'Dekko', cursive;
+    
+    
+}
+
+
+.main1 > p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: auto;
+    text-indent: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.main2 > img {
+    padding-left: 10px;
+    margin: auto;
+    max-width: 500px;
+    min-width: 250px;
+    max-height: 250px;
+    
+}
+
+.main1 > h2 {
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Dekko', cursive;
+}
+
+aside {
+    padding-left: 10px;
+    
+    background-color: gray;  
+    border-radius: 10px 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+aside > h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    margin: 0px 0px 0px -10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.main2 > h1 {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.main2 > p {
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-indent: 30px;
+    margin-top: -17px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+}
+
+footer {
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    
+}
+
+footer > p {
+    text-align: center;
+}
+
+strong:hover {
+    background-color: rgba(112, 211, 244, 0.671);
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
